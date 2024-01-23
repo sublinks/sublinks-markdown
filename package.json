@@ -1,6 +1,6 @@
 {
   "name": "sublinks-markdown",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "A markdown parser with rules for frontends of sublinks. Used to easily add markdown support compatible with the standard sublinks frontend.",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -24,7 +24,11 @@
   "dependencies": {
     "rehype-autolink-headings": "^7.1.0",
     "rehype-highlight": "^7.0.0",
+    "rehype-sanitize": "^6.0.0",
     "rehype-stringify": "^10.0.0",
+    "remark-abbr": "^1.4.1",
+    "remark-captions": "^2.2.3",
+    "remark-emoji": "^4.0.1",
     "remark-heading-id": "^1.0.1",
     "remark-parse": "^11.0.0",
     "remark-rehype": "^11.0.0",
@@ -35,6 +39,7 @@
   "type": "module",
   "devDependencies": {
     "@types/node": "^20.10.4",
+    "@types/remark-abbr": "^1.4.4",
     "@typescript-eslint/eslint-plugin": "^6.14.0",
     "@typescript-eslint/parser": "^6.14.0",
     "eslint": "^8.55.0",
