@@ -14,3 +14,30 @@
   </p>
 </div>
 
+## About
+
+Sublinks markdown is a package that can be imported into your frontend and then used to add markdown support through one function call. All of the markdown rules used in the standard sublinks frontend are supported meaning your users will see the same things as users using the standard frontend without you needing to implement every single rule yourself.
+
+## Install
+
+This package is ESM only. To install with npm use:
+
+```
+npm i sublinks-markdown
+```
+
+## Features
+- Headings (h1, h2, h3, h4, h5, h6)
+- Bold
+- Italic
+- Strikethrough
+- Relative user links (@user@instance or https://instance/u/user turns into a link relative to the user's instance. https://usersinstance/u/user@instance)
+- Relative community links (same as user but with !community@instance and https://instance/c/community)
+- Links
+- Image embedding
+- Blockquote
+- Unordered list
+- Ordered list
+- Horizontal rule
+- Code blocks
+and more coming in the future
