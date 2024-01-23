@@ -26,6 +26,18 @@ This package is ESM only. To install with npm use:
 npm i sublinks-markdown
 ```
 
+## Usage
+
+To convert text from markdown syntax into html use the mdToHtml function
+
+```
+import { mdToHtml } from "sublinks-markdown";
+
+const html = await mdToHtml("## Hello World", "example.com")
+```
+
+The first argument is the markdown you want converted and the second is the instance of the user currently interacting with the frontend (so things such as relative links populate properly).
+
 ## Features
 - Headings (h1, h2, h3, h4, h5, h6)
 - Bold
