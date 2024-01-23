@@ -31,8 +31,8 @@ npm i sublinks-markdown
 - Bold
 - Italic
 - Strikethrough
-- Relative user links (@user@instance or https://instance/u/user turns into a link relative to the user's instance. https://usersinstance/u/user@instance)
-- Relative community links (same as user but with !community@instance and https://instance/c/community)
+- Relative user links (@user@example.com or https://example.com/u/user turns into a link relative to the user's instance. https://example.org/u/user@example.com)
+- Relative community links (same as user but with !community@example.com and https://example.com/c/community)
 - Links
 - Image embedding
 - Blockquote
