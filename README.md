@@ -10,7 +10,7 @@
   <img src="https://avatars.githubusercontent.com/u/153321235?s=200&v=4" width=200px height=200px></img>
   <h3 align="center"><a href="">Sublinks Markdown</a></h3>
   <p align="center">
-    A markdown parser with rules for frontends of sublinks. Used to easily add markdown support compatible with the standard sublink frontend.
+    A markdown parser with rules for frontends of sublinks. Used to easily add markdown support compatible with the standard sublinks frontend.
   </p>
 </div>
 
@@ -39,12 +39,13 @@ const html = await mdToHtml("## Hello World", "example.com")
 The first argument is the markdown you want converted and the second is the instance of the user currently interacting with the frontend (so things such as relative links populate properly).
 
 ## Features
+
 - Headings (h1, h2, h3, h4, h5, h6)
 - Bold
 - Italic
 - Strikethrough
 - Relative user links (@user@example.com or https://example.com/u/user turns into a link relative to the user's instance. https://example.org/u/user@example.com)
-- Relative community links (same as user but with !community@example.com and https://example.com/c/community)
+- Relative community links (!community@example.com or https://example.com/c/community turns into a link relative to the user's instance. https://example.org/c/community@example.com)
 - Links
 - Image embedding
 - Blockquote
@@ -52,4 +53,4 @@ The first argument is the markdown you want converted and the second is the inst
 - Ordered list
 - Horizontal rule
 - Code blocks
-and more coming in the future
+- and more coming in the future

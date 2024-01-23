@@ -1,7 +1,7 @@
 {
   "name": "sublinks-markdown",
   "version": "0.1.2",
-  "description": "A markdown parser with rules for frontends of sublinks. Used to easily add markdown support compatible with the standard sublink frontend.",
+  "description": "A markdown parser with rules for frontends of sublinks. Used to easily add markdown support compatible with the standard sublinks frontend.",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "files": [
